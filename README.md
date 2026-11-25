@@ -1,3 +1,15 @@
+* `Asset/map1.png`（警告レポート画面）
+
+
+* `Asset/map2.png`（リンクマップの可視化画面）
+* `Asset/Canonical.png`（Canonicalタグ自動挿入ツールのGUI画面）
+
+
+* `Asset/sitemaps.png`（Automation Sitemap Builderの画面）
+
+---
+
+```markdown
 # WEBSites-SEO-Helper
 
 WEBサイトのSEO対策補助ツールセットです。  
@@ -12,13 +24,19 @@ WEBサイトのSEO対策補助ツールセットです。
 1. **Link_MAP_Visualizer**（`SEO-Helper/Link_MAP_Visualizer/`）
    - サイト内のリンク構造の可視化や、ルート（`/`）と `index.html`（や `top.cgi`・`start.htm` などのトップ相当ファイル）の混在・重複、リンク切れ（404）などの警告レポートを確認するためのツールです[cite: 7]。
    - 構成ファイル：`link_map.py`、`ReadMe.txt`、`Run.bat`
+   - ![SEO・リンク構造 警告レポート](Asset/map1.png)[cite: 7]
+   - ![サイトリンクマップ可視化](Asset/map2.png)
+
 2. **Canonical-Injector**（`SEO-Helper/Canonical-Injector/`）
    - 対象フォルダ内のHTMLファイルに対して `<link rel="canonical">` を挿入・更新するツールです[cite: 6]。
    - `index.html` を省略してディレクトリURL（`/`）に寄せるオプションに対応しています[cite: 6]。
    - 構成ファイル：`canonicaltag.py`、`ReadMe.txt`、`Run.bat`
+   - ![Canonicalタグ自動挿入ツール](Asset/Canonical.png)[cite: 6]
+
 3. **Automation_Sitemaps**（`SEO-Helper/Automation_Sitemaps/`）
    - 対象URLをスキャンし、URLごとの登録対象・`Priority`・`robots除外` などを確認しながら `sitemap.xml`（必要に応じて `robots.txt` も）を生成するツールです。
    - 構成ファイル：`automation_sitemaps.py`、`ReadMe.txt`、`Run.bat`
+   - ![Automation Sitemap Builder](Asset/sitemaps.png)
 
 ---
 
@@ -37,7 +55,7 @@ WEBサイトのSEO対策補助ツールセットです。
 
 ```text
 WEBSites-SEO-Helper/
-├─ Asset/                    # デモ用素材・検証用ファイル・画像など
+├─ Asset/                    # デモ用素材・検証用ファイル・スクリーンショットなど
 ├─ SEO-Helper/
 │  ├─ Automation_Sitemaps/
 │  │  ├─ automation_sitemaps.py
