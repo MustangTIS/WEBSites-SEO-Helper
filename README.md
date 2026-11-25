@@ -5,6 +5,22 @@ WEBサイトのSEO対策補助ツールセットです。
 
 ---
 
+## ダウンロード
+
+最新版アーカイブは GitHub Releases から取得できます。
+
+- [最新リリース（Releases / Latest）](https://github.com/MustangTIS/WEBSites-SEO-Helper/releases/latest)
+
+---
+
+## 動作環境
+
+- **OS:** Windows 10 / Windows 11（`Run.bat` による起動を想定）
+- **実行環境:** Python 3.x（各スクリプトに必要な標準ライブラリ・追加パッケージは各ツールの `ReadMe.txt` を参照）
+- **ブラウザ:** リンクマップHTML（`site_link_map.html` 等）の閲覧用
+
+---
+
 ## 基本的な実行順序
 
 1. **リンク構造の確認・修正（`Link_MAP_Visualizer`）**
