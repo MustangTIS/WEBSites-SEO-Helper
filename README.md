@@ -1,6 +1,3 @@
-バッジ4点をタイトル直下に追加した `README.md` の更新版です。
-
-```markdown
 # WEBSites-SEO-Helper
 
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-blue)
@@ -117,7 +114,3 @@ WEBSites-SEO-Helper/
 ## ライセンス
 
 MIT License（詳細は `LICENSE` ファイルを参照してください）。
-
-```
-
-```
